@@ -39,6 +39,10 @@ body {
 main {
     height: 100%;
     width: 100%;
+
+    display: grid;
+    place-items: center;
+    height: 100dvh;
 }
 
 section {
@@ -78,7 +82,11 @@ p {
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 a {
